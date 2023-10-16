@@ -30,7 +30,7 @@ Learning objective for this workshop are labeled so you can prioritize your stud
 - 🥚 You can import a module to the console and use `help(<function>)` to read it's docstring.
 - 🥚 You can distinguish between a function's **_behavior_**, **_strategy_** and **_implementation_**.
 - 🥚 You can write a clear and complete _docstring_ to describe a function's _behavior_.
-- 🥚 You can write 2-3 _doctests_ to informally demonstrate a function's _behavior_.
+- 🥚 You can write 2-3 _doctests_ to informally demonstrate a function's _behavior_. (white space matters in a docstring test case!)
 
 ### Function Implementation
 
@@ -87,7 +87,7 @@ Explore and discuss the examples in [behavior, strategy and implementation](./be
   - One interesting thing they learned
 - Discuss why documenting and testing important.
 - The instructor does a guided walk through the `/examples` folder, reading and running each file:
-  - `<file_name>.py`, `<file_name>.test.py`, `<file_name>.sandbox.py`
+  - `<module_name>.py`, `test_<module_name>.py`, `<module_name>_sandbox.py`
   - How to study and run each file
   - Demonstrate how to use the [Code Review Checklist](./code-review-checklists.md)
   - Demonstrate use the console to read docstrings and run doctests
@@ -101,13 +101,13 @@ You will work on the `/exercises` in small groups. You are not expected to finis
 
 Study one mystery function at a time following these steps:
 
-1. Explore the mystery function using `<file_name>.sandbox.py`. :
+1. Explore the mystery function using `<module_name>_sandbox.py`. :
    - There are no wrong answers! Try passing all sorts of arguments until you think you understand the function's _behavior_.
-2. Describe the function's behavior in `<file_name>.py`:
+2. Describe the function's behavior in `<module_name>.py`:
    - Give the function a descriptive name and rename the files to match.
    - Write type annotations for the function
    - Write a first draft docstring, you can always update it later
-3. Write black box unit tests for the function in `<file_name>.test.py`:
+3. Write black box unit tests for the function in `test_<module_name>.py`:
    - Ask yourself: _How can I break my program?_
    - Write as many boundary cases as you can
 4. Study the function's code to understand its strategy:

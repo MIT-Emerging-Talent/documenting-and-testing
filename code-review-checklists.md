@@ -5,6 +5,7 @@ Writing a good function involves a lot of detail, way to much to remember right 
 ## File Names
 
 - [ ] The file names match the function
+- [ ] Test are named `test_<module_name>.py`
 
 ## Function Docstring
 
@@ -12,7 +13,7 @@ Writing a good function involves a lot of detail, way to much to remember right 
 - [ ] parameter description
 - [ ] return value description
 - [ ] include any assumptions
-- [ ] include 3 or more doctests
+- [ ] include 3 or more (passing!) doctests
 - [ ] include 1-2 use cases (if necessary)
 
 ## Function Implementation
