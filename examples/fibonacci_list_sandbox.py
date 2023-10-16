@@ -10,6 +10,16 @@ from fibonacci_list import fibonacci_list
 
 print(fibonacci_list(150))
 
+# %% is it really a Fibonacci sequence?
+
+huge_list = fibonacci_list(500)
+
+for index in range(2, 500):
+    two_back = huge_list[index - 2]
+    one_back = huge_list[index - 1]
+    current = huge_list[index]
+
+    assert two_back + one_back == current, f"entry {index} is not correct"
 
 # %% does the function return the same or different arrays?
 

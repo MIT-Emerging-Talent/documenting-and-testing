@@ -28,26 +28,25 @@ Learning objective for this workshop are labeled so you can prioritize your stud
 
 - 🥚 You can read docstrings to understand a function's _behavior_.
 - 🥚 You can import a module to the console and use `help(<function>)` to read it's docstring.
-- 🐣 You can distinguish between a function's **_behavior_**, **_strategy_** and **_implementation_**.
-- 🐣 You can write clear and complete docstrings for a function.
-- 🐥 You can come up with 2-3 _use cases_ for a function.
+- 🥚 You can distinguish between a function's **_behavior_**, **_strategy_** and **_implementation_**.
+- 🥚 You can write a clear and complete _docstring_ to describe a function's _behavior_.
+- 🥚 You can write 2-3 _doctests_ to informally demonstrate a function's _behavior_.
 
 ### Function Implementation
 
 - 🥚 You can use a _formatter_ and _linter_ to write code that follows community conventions.
 - 🥚 You can read and write type annotations to describe a function's _type signature_.
 - 🥚 You can write a clear and helpful name for a function, and use the same name for the file.
+- 🥚 You can write assertions in a function for _defensive programming_.
 - 🐣 You can write _self-documenting code_ that uses variable names and comments to explain a function's **_strategy_**.
-- 🐥 You can write assertions in a function for _defensive programming_.
 
 ### Function Testing
 
 - 🥚 You can use a sandbox file to informally explore a function's _behavior_.
 - 🥚 You can read and run unit tests to understand a function's _behavior_.
-- 🥚 You can write and run _doctests_ to informally test a function's _behavior_.
 - 🥚 You can import a module in your console and run its doctest.
-- 🐣 You can write a simple suite of unit tests with some boundary cases.
-- 🐥 You can write a full suite of unit tests including comprehensive boundary cases, assertions checks, and glass box tests.
+- 🥚 You can write a simple suite of unit tests with some boundary cases.
+- 🐣 You can write a full suite of unit tests including comprehensive boundary cases, assertions checks, and glass box tests.
 
 ---
 
@@ -64,23 +63,41 @@ Things to prepare before the workshop:
 
 ## Workshop Outline
 
-### All Together - Demo Time
+### Workshop Overview _(all together)_
 
-The workshop instructor will introduce the main concepts and workshop materials:
+> ~10 minutes
 
-- Introduce the [learning objectives](#learning-objectives).
-- Discuss why documenting and testing important
-- Guided walk through the `/examples` folder, reading and running each file:
+The workshop instructor will introduce the main concepts of this workshop:
+
+- Introduce the workshop's [learning objectives](#learning-objectives).
+- Discuss the difference between a function's [behavior, strategy and implementation](./behavior-strategy-implementation.md).
+
+### Behavior, Strategy, Implementation _(small groups)_
+
+> ~15 minutes
+
+Explore and discuss the examples in [behavior, strategy and implementation](./behavior-strategy-implementation.md).
+
+### Introduce the Exercises _(all together)_
+
+> ~15 minutes
+
+- Each group will have 1 minute to share:
+  - One thing they couldn't understand
+  - One interesting thing they learned
+- Discuss why documenting and testing important.
+- The instructor does a guided walk through the `/examples` folder, reading and running each file:
   - `<file_name>.py`, `<file_name>.test.py`, `<file_name>.sandbox.py`
   - How to study and run each file
-  - Practice using the [Code Review Checklist](./code-review-checklists.md)
-  - How to read docstrings and run doctests from the console
-- Discuss the difference between a function's [behavior, strategy and implementation](./behavior-strategy-implementation.md)
+  - Demonstrate how to use the [Code Review Checklist](./code-review-checklists.md)
+  - Demonstrate use the console to read docstrings and run doctests
 - Introduce the group exercise
 
-### In Small Groups
+### Document and Test the Mystery Functions _(small groups)_
 
-You will work on the `/exercises` in small groups. You are not expected to finish all of the exercises during the workshop, you may not even finish all of the steps for one mystery function. That's ok! There are so many exercises so you can keep practicing after the workshop.
+> ~30 minutes
+
+You will work on the `/exercises` in small groups. You are not expected to finish all of the exercises during the workshop, you may not even finish all of the steps for one mystery function. That's ok! There are extra exercises so you can keept practicing after the workshop.
 
 Study one mystery function at a time following these steps:
 
@@ -101,7 +118,9 @@ Study one mystery function at a time following these steps:
    1. Write unit tests for your assertions
    1. Write glass box tests for the function's implementation
 
-### All Together - Discussion
+### Discussion _(all together)_
+
+> ~20 minutes
 
 Back together, you will have an informal discussion with the other groups and the workshop leader.
 
