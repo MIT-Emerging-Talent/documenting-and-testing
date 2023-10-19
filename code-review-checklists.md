@@ -1,6 +1,6 @@
 # Code Review Checklists
 
-Writing a good function involves a lot of detail, way to much to remember right away! These checklists can help you review your own or your own classmates' code until the details become a habit.
+Writing a good function involves a lot of detail, way too much to remember right away! These checklists can help you review your own or your own classmates' code until the details become a habit.
 
 ## File Names
 
