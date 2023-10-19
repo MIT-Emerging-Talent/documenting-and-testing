@@ -72,16 +72,6 @@ class TestFibLib(unittest.TestCase):
         """It should evaluate 9 to [0, 1, 1, 2, 3, 5, 8, 13, 21]"""
         self.assertEqual(fib_list(9), [0, 1, 1, 2, 3, 5, 8, 13, 21])
 
-    def test_less_than_0(self):
-        """It should raise an assertion error if the argument is less than 0"""
-        with self.assertRaises(AssertionError):
-            fib_list(-1)
-
-    def test_not_an_integer(self):
-        """It should raise an assertion error if the argument is not an integer"""
-        with self.assertRaises(AssertionError):
-            fib_list(1.0)
-
 
 if __name__ == "__main__":
     unittest.main()
