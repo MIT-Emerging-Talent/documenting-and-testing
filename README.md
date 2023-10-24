@@ -39,6 +39,7 @@ Learning objective for this workshop are labeled so you can prioritize your stud
 - 🥚 You can write a clear and helpful name for a function, and use the same name for the file.
 - 🥚 You can write assertions in a function for _defensive programming_.
 - 🐣 You can write _self-documenting code_ that uses variable names and comments to explain a function's **_strategy_**.
+- 🐥 You can use the [Zen of Python](https://realpython.com/zen-of-python/) as a guide when writing your own code.
 
 ### Function Testing
 
