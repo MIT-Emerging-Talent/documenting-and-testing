@@ -26,7 +26,8 @@ def fibonacci_list(sequence_length: int) -> list[int]:
     """
 
     # the sequence length should be an integer greater than 0
-    assert isinstance(sequence_length, int), "sequence length is not an integer"
+    assert isinstance(
+        sequence_length, int), "sequence length is not an integer"
     assert sequence_length >= 0, "sequence length is less than 0"
 
     # 3 base cases because the recursive solution reads back 2 indices in the array
